@@ -5,8 +5,4 @@ export class Users extends Service {
   constructor(options: Partial<MongooseServiceOptions>, app: Application) {
     super(options);
   }
-
-  async create(data: object, params: any): Promise<any> {
-    return super.create(data);
-  }
 }

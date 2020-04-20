@@ -1,4 +1,4 @@
 {
-  "host": "feathers-chat-mongoose-app.feathersjs.com",
+  "host": "https://mestrando.herokuapp.com/",
   "port": "PORT"
 }
