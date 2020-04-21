@@ -1,4 +1,5 @@
 {
-  "host": "https://mestrando.herokuapp.com/",
-  "port": "PORT"
+  "host": "HOST",
+  "port": "PORT",
+  "mongodb": "MONGODB"
 }

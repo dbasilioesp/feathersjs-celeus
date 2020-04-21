@@ -10,15 +10,12 @@
     "entity": "user",
     "service": "users",
     "secret": "pPT36oLQX21mo5zNNLlVxqctuh4=",
-    "authStrategies": [
-      "jwt",
-      "local"
-    ],
+    "authStrategies": ["jwt", "local"],
     "jwtOptions": {
       "header": {
         "typ": "access"
       },
-      "audience": "https://yourdomain.com",
+      "audience": "HOST",
       "issuer": "feathers",
       "algorithm": "HS256",
       "expiresIn": "1d"
@@ -32,11 +29,7 @@
       "google": {
         "key": "<google oauth key>",
         "secret": "<google oauth secret>",
-        "scope": [
-          "email",
-          "profile",
-          "openid"
-        ]
+        "scope": ["email", "profile", "openid"]
       }
     }
   },
